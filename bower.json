@@ -1,0 +1,20 @@
+{
+  "name": "fs-components-behavior",
+  "version": "0.1.0",
+  "description": "Shared fs component behavior",
+  "homepage": "https://github.com/york-solutions/fs-components-behavior",
+  "main": "fs-components-behavior.html",
+  "authors": [
+    "Justin York"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "/.*"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "familysearch"
+  ]
+}
