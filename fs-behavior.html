@@ -1,10 +1,21 @@
 <script>
   var FSBehavior = {
+    
     properties: {
+      
       /**
        * Optional name of the sdk client to use.
        */
       clientName: String
+      
+    },
+    
+    getClient: function(){
+      var clientElement = this.$$('fs-client');
+      if(clientElement){
+        return clientElement.client;
+      }
     }
+    
   };
 </script>
