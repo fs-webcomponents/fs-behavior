@@ -15,6 +15,15 @@
       if(clientElement){
         return clientElement.client;
       }
+    },
+    
+    isAuthenticated: function(){
+      var clientElement = this.$$('fs-client');
+      if(clientElement){
+        return clientElement.authenticated;
+      } else {
+        return false;
+      }
     }
     
   };
