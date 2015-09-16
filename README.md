@@ -1,2 +1,3 @@
-# fs-components-behavior
+# fs-behavior
+
 Shared behavior for FS components
