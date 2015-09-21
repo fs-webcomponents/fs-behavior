@@ -6,7 +6,11 @@
       /**
        * Optional name of the sdk client to use.
        */
-      clientName: String
+      clientName: {
+        type: String,
+        value: 'default',
+        reflectToAttribute: true
+      }
       
     },
     
