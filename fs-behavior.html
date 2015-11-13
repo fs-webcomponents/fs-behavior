@@ -1,4 +1,7 @@
 <script>
+  /**
+   * `FSBehavior` makes it easy to use an SDK client in another element.
+   */
   var FSBehavior = {
     
     properties: {
@@ -14,6 +17,9 @@
       
     },
     
+    /**
+     * Get the SDK instance.
+     */
     getClient: function(){
       var clientElement = this.$$('fs-client');
       if(clientElement){
@@ -21,6 +27,9 @@
       }
     },
     
+    /**
+     * Returns true of the client is authenticated; returns false otherwise.
+     */
     isAuthenticated: function(){
       var clientElement = this.$$('fs-client');
       if(clientElement){
