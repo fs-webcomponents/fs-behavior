@@ -2,6 +2,14 @@
   /**
    * `FSBehavior` makes it easy to use an SDK client in another element. 
    * 
+   *     <dom-module id="my-element">
+   *       <template>
+   *         <fs-client name="[[clientName]]">
+   *       </template>
+   *     </dom-module>
+   *     
+   * See [fs-signin](https://github.com/fs-webcomponents/fs-signin) for an example.
+   * 
    * This behavior only defines one common attribute and two helper methods, as
    * documented below. It _does not_ actually define the client.
    * See [issue #1](https://github.com/fs-webcomponents/fs-behavior/issues/1).
