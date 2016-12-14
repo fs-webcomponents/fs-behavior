@@ -1,7 +1,7 @@
 {
   "name": "fs-behavior",
-  "version": "1.0.0",
-  "description": "Shared fs component behavior",
+  "version": "2.0.0",
+  "description": "Shared FS component behavior for easy fs-client interaction.",
   "homepage": "https://github.com/fs-webcomponents/fs-behavior",
   "main": "fs-behavior.html",
   "authors": [
